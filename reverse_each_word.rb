@@ -1,4 +1,7 @@
 def reverse_each_word(array)
   new_array = []
   array.map! do |element|
-    element.reverse
+    element.reverse 
+  end
+  
+    
